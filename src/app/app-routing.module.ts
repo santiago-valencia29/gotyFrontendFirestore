@@ -4,13 +4,13 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { GotyComponent } from './pages/goty/goty.component';
 
 const routes: Routes = [
-  {path:'inicio',component:InicioComponent},
-  {path:'goty',component:GotyComponent},
-  {path:'**',pathMatch:'full', redirectTo:'inicio'}
+  { path: 'inicio', component: InicioComponent },
+  { path: 'votar', component: GotyComponent },
+  { path: '**', pathMatch: 'full', redirectTo: 'inicio' },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
