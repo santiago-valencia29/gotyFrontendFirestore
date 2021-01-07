@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular8-35cb3": {
+      "hosting": {
+        "gotyFrontendFirestore": [
+          "angular8-35cb3"
+        ]
+      }
+    }
+  }
+}
